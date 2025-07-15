@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.002902] (camera_node) JobQueued: {'identifier': 'camera_node', 'dependencies': OrderedDict()}
+[0.003102] (lidar_node) JobQueued: {'identifier': 'lidar_node', 'dependencies': OrderedDict()}
+[0.003261] (camera_node) JobStarted: {'identifier': 'camera_node'}
+[0.030364] (lidar_node) JobStarted: {'identifier': 'lidar_node'}
+[0.098954] (-) TimerEvent: {}
+[0.199700] (-) TimerEvent: {}
+[0.300489] (-) TimerEvent: {}
+[0.401293] (-) TimerEvent: {}
+[0.502180] (-) TimerEvent: {}
+[0.602959] (-) TimerEvent: {}
+[0.703671] (-) TimerEvent: {}
+[0.804463] (-) TimerEvent: {}
+[0.905276] (-) TimerEvent: {}
+[1.006214] (-) TimerEvent: {}
+[1.106899] (-) TimerEvent: {}
+[1.207505] (-) TimerEvent: {}
+[1.308390] (-) TimerEvent: {}
+[1.411104] (-) TimerEvent: {}
+[1.511929] (-) TimerEvent: {}
+[1.612601] (-) TimerEvent: {}
+[1.713184] (-) TimerEvent: {}
+[1.813858] (-) TimerEvent: {}
+[1.914933] (-) TimerEvent: {}
+[2.015601] (-) TimerEvent: {}
+[2.116544] (-) TimerEvent: {}
+[2.217303] (-) TimerEvent: {}
+[2.318047] (-) TimerEvent: {}
+[2.418720] (-) TimerEvent: {}
+[2.519665] (-) TimerEvent: {}
+[2.559915] (camera_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_node', 'build', '--build-base', '/home/ika/ros2_ws/build/camera_node/build', 'install', '--record', '/home/ika/ros2_ws/build/camera_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ika/ros2_ws/src/camera_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'ika', 'LC_TIME': 'tr_TR.UTF-8', 'ROS_PACKAGE_PATH': '/home/ika/ros2_ws/install/camera_node/share', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ika', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/ika/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'SYSTEMD_EXEC_PID': '1287', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ika/ros2_ws/install:/home/ika/ika_ros/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ika', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/ika/ros2_ws/install/camera_node/lib/x86_64-linux-gnu/pkgconfig:/home/ika/ros2_ws/install/camera_node/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ika', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/lib/rqt_image_view:/home/ika/ika_ros/install/ugv_sensors/bin:/opt/ros/humble/bin:/home/ika/miniconda3/condabin:/home/ika/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ika-virtual-machine:@/tmp/.ICE-unix/1241,unix/ika-virtual-machine:/tmp/.ICE-unix/1241', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e003cb70_f868_4927_9e3a_ccda9dd5a695', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y8JR92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.113', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ika/ros2_ws/install/camera_node:/home/ika/ros2_ws/install/lidar_node:/home/ika/ika_ros/install/ugv_sensors:/home/ika/ika_ros/install/rplidar_ros:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/ika/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ika/ros2_ws/build/camera_node', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/ika/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ika/ros2_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages:/home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages:/home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages:/home/ika/ika_ros/install/ugv_sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ika/ros2_ws/install/camera_node:/home/ika/ika_ros/install/rplidar_ros'}, 'shell': False}
+[2.581210] (lidar_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_node', 'build', '--build-base', '/home/ika/ros2_ws/build/lidar_node/build', 'install', '--record', '/home/ika/ros2_ws/build/lidar_node/install.log', '--single-version-externally-managed'], 'cwd': '/home/ika/ros2_ws/src/lidar_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'ika', 'LC_TIME': 'tr_TR.UTF-8', 'ROS_PACKAGE_PATH': '/home/ika/ros2_ws/install/camera_node/share', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ika', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/ika/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'SYSTEMD_EXEC_PID': '1287', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ika/ros2_ws/install:/home/ika/ika_ros/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ika', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/ika/ros2_ws/install/camera_node/lib/x86_64-linux-gnu/pkgconfig:/home/ika/ros2_ws/install/camera_node/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ika', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/lib/rqt_image_view:/home/ika/ika_ros/install/ugv_sensors/bin:/opt/ros/humble/bin:/home/ika/miniconda3/condabin:/home/ika/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ika-virtual-machine:@/tmp/.ICE-unix/1241,unix/ika-virtual-machine:/tmp/.ICE-unix/1241', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e003cb70_f868_4927_9e3a_ccda9dd5a695', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y8JR92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.113', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ika/ros2_ws/install/camera_node:/home/ika/ros2_ws/install/lidar_node:/home/ika/ika_ros/install/ugv_sensors:/home/ika/ika_ros/install/rplidar_ros:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/ika/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ika/ros2_ws/build/lidar_node', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/ika/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ika/ros2_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages:/home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages:/home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages:/home/ika/ika_ros/install/ugv_sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ika/ros2_ws/install/camera_node:/home/ika/ika_ros/install/rplidar_ros'}, 'shell': False}
+[2.619928] (-) TimerEvent: {}
+[2.720609] (-) TimerEvent: {}
+[2.821372] (-) TimerEvent: {}
+[2.922323] (-) TimerEvent: {}
+[3.023229] (-) TimerEvent: {}
+[3.123860] (-) TimerEvent: {}
+[3.224426] (-) TimerEvent: {}
+[3.325355] (-) TimerEvent: {}
+[3.347244] (lidar_node) StdoutLine: {'line': b'running egg_info\n'}
+[3.349470] (lidar_node) StdoutLine: {'line': b'creating ../../build/lidar_node/lidar_node.egg-info\n'}
+[3.350237] (lidar_node) StdoutLine: {'line': b'writing ../../build/lidar_node/lidar_node.egg-info/PKG-INFO\n'}
+[3.351086] (lidar_node) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_node/lidar_node.egg-info/dependency_links.txt\n'}
+[3.351484] (lidar_node) StdoutLine: {'line': b'writing entry points to ../../build/lidar_node/lidar_node.egg-info/entry_points.txt\n'}
+[3.352971] (lidar_node) StdoutLine: {'line': b'writing requirements to ../../build/lidar_node/lidar_node.egg-info/requires.txt\n'}
+[3.353396] (lidar_node) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_node/lidar_node.egg-info/top_level.txt\n'}
+[3.353878] (lidar_node) StdoutLine: {'line': b"writing manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'\n"}
+[3.357968] (lidar_node) StdoutLine: {'line': b"reading manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'\n"}
+[3.360647] (camera_node) StdoutLine: {'line': b'running egg_info\n'}
+[3.361181] (lidar_node) StdoutLine: {'line': b"writing manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'\n"}
+[3.361856] (lidar_node) StdoutLine: {'line': b'running build\n'}
+[3.362197] (lidar_node) StdoutLine: {'line': b'running build_py\n'}
+[3.362989] (lidar_node) StdoutLine: {'line': b'creating /home/ika/ros2_ws/build/lidar_node/build\n'}
+[3.363698] (lidar_node) StdoutLine: {'line': b'creating /home/ika/ros2_ws/build/lidar_node/build/lib\n'}
+[3.365042] (lidar_node) StdoutLine: {'line': b'creating /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node\n'}
+[3.365936] (lidar_node) StdoutLine: {'line': b'copying lidar_node/lidar_reader.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node\n'}
+[3.366522] (camera_node) StdoutLine: {'line': b'creating ../../build/camera_node/camera_node.egg-info\n'}
+[3.367968] (lidar_node) StdoutLine: {'line': b'copying lidar_node/map_builder_node.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node\n'}
+[3.368493] (lidar_node) StdoutLine: {'line': b'copying lidar_node/lidar_reader_node.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node\n'}
+[3.368637] (lidar_node) StdoutLine: {'line': b'copying lidar_node/map_tracker.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node\n'}
+[3.368789] (lidar_node) StdoutLine: {'line': b'copying lidar_node/__init__.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node\n'}
+[3.368948] (lidar_node) StdoutLine: {'line': b'copying lidar_node/astar_planner.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node\n'}
+[3.369074] (lidar_node) StdoutLine: {'line': b'running install\n'}
+[3.369200] (camera_node) StdoutLine: {'line': b'writing ../../build/camera_node/camera_node.egg-info/PKG-INFO\n'}
+[3.369399] (camera_node) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_node/camera_node.egg-info/dependency_links.txt\n'}
+[3.369567] (camera_node) StdoutLine: {'line': b'writing entry points to ../../build/camera_node/camera_node.egg-info/entry_points.txt\n'}
+[3.369696] (camera_node) StdoutLine: {'line': b'writing requirements to ../../build/camera_node/camera_node.egg-info/requires.txt\n'}
+[3.369864] (camera_node) StdoutLine: {'line': b'writing top-level names to ../../build/camera_node/camera_node.egg-info/top_level.txt\n'}
+[3.369995] (camera_node) StdoutLine: {'line': b"writing manifest file '../../build/camera_node/camera_node.egg-info/SOURCES.txt'\n"}
+[3.370590] (lidar_node) StdoutLine: {'line': b'running install_lib\n'}
+[3.371154] (lidar_node) StdoutLine: {'line': b'creating /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node\n'}
+[3.371547] (lidar_node) StdoutLine: {'line': b'copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/lidar_reader.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node\n'}
+[3.372461] (lidar_node) StdoutLine: {'line': b'copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/map_builder_node.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node\n'}
+[3.372775] (lidar_node) StdoutLine: {'line': b'copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/lidar_reader_node.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node\n'}
+[3.373102] (camera_node) StdoutLine: {'line': b"reading manifest file '../../build/camera_node/camera_node.egg-info/SOURCES.txt'\n"}
+[3.373521] (lidar_node) StdoutLine: {'line': b'copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/map_tracker.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node\n'}
+[3.374051] (lidar_node) StdoutLine: {'line': b'copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/__init__.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node\n'}
+[3.374851] (lidar_node) StdoutLine: {'line': b'copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/astar_planner.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node\n'}
+[3.375705] (camera_node) StdoutLine: {'line': b"writing manifest file '../../build/camera_node/camera_node.egg-info/SOURCES.txt'\n"}
+[3.376040] (camera_node) StdoutLine: {'line': b'running build\n'}
+[3.376278] (camera_node) StdoutLine: {'line': b'running build_py\n'}
+[3.376495] (camera_node) StdoutLine: {'line': b'creating /home/ika/ros2_ws/build/camera_node/build\n'}
+[3.376896] (camera_node) StdoutLine: {'line': b'creating /home/ika/ros2_ws/build/camera_node/build/lib\n'}
+[3.377998] (camera_node) StdoutLine: {'line': b'creating /home/ika/ros2_ws/build/camera_node/build/lib/camera_node\n'}
+[3.378223] (lidar_node) StdoutLine: {'line': b'byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/lidar_reader.py to lidar_reader.cpython-310.pyc\n'}
+[3.378496] (camera_node) StdoutLine: {'line': b'copying camera_node/camera_node.py -> /home/ika/ros2_ws/build/camera_node/build/lib/camera_node\n'}
+[3.379078] (camera_node) StdoutLine: {'line': b'copying camera_node/__init__.py -> /home/ika/ros2_ws/build/camera_node/build/lib/camera_node\n'}
+[3.379191] (lidar_node) StdoutLine: {'line': b'byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/map_builder_node.py to map_builder_node.cpython-310.pyc\n'}
+[3.379698] (camera_node) StdoutLine: {'line': b'running install\n'}
+[3.379968] (camera_node) StdoutLine: {'line': b'running install_lib\n'}
+[3.380440] (lidar_node) StdoutLine: {'line': b'byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/lidar_reader_node.py to lidar_reader_node.cpython-310.pyc\n'}
+[3.380614] (camera_node) StdoutLine: {'line': b'creating /home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages/camera_node\n'}
+[3.380815] (camera_node) StdoutLine: {'line': b'copying /home/ika/ros2_ws/build/camera_node/build/lib/camera_node/camera_node.py -> /home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages/camera_node\n'}
+[3.380991] (camera_node) StdoutLine: {'line': b'copying /home/ika/ros2_ws/build/camera_node/build/lib/camera_node/__init__.py -> /home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages/camera_node\n'}
+[3.381161] (lidar_node) StdoutLine: {'line': b'byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/map_tracker.py to map_tracker.cpython-310.pyc\n'}
+[3.381477] (camera_node) StdoutLine: {'line': b'byte-compiling /home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages/camera_node/camera_node.py to camera_node.cpython-310.pyc\n'}
+[3.381760] (lidar_node) StdoutLine: {'line': b'byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/__init__.py to __init__.cpython-310.pyc\n'}
+[3.382338] (lidar_node) StdoutLine: {'line': b'byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/astar_planner.py to astar_planner.cpython-310.pyc\n'}
+[3.382992] (camera_node) StdoutLine: {'line': b'byte-compiling /home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages/camera_node/__init__.py to __init__.cpython-310.pyc\n'}
+[3.383319] (camera_node) StdoutLine: {'line': b'running install_data\n'}
+[3.383646] (camera_node) StdoutLine: {'line': b'copying package.xml -> /home/ika/ros2_ws/install/camera_node/share/camera_node\n'}
+[3.383986] (camera_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.384698] (lidar_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.388499] (lidar_node) StdoutLine: {'line': b'Copying ../../build/lidar_node/lidar_node.egg-info to /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node-0.0.0-py3.10.egg-info\n'}
+[3.389223] (camera_node) StdoutLine: {'line': b'Copying ../../build/camera_node/camera_node.egg-info to /home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages/camera_node-0.0.0-py3.10.egg-info\n'}
+[3.390733] (camera_node) StdoutLine: {'line': b'running install_scripts\n'}
+[3.391201] (lidar_node) StdoutLine: {'line': b'running install_scripts\n'}
+[3.425651] (-) TimerEvent: {}
+[3.440322] (lidar_node) StdoutLine: {'line': b'Installing lidar_reader_node script to /home/ika/ros2_ws/install/lidar_node/lib/lidar_node\n'}
+[3.441179] (lidar_node) StdoutLine: {'line': b'Installing map_builder_node script to /home/ika/ros2_ws/install/lidar_node/lib/lidar_node\n'}
+[3.441576] (camera_node) StdoutLine: {'line': b'Installing camera_node script to /home/ika/ros2_ws/install/camera_node/lib/camera_node\n'}
+[3.442763] (camera_node) StdoutLine: {'line': b"writing list of installed files to '/home/ika/ros2_ws/build/camera_node/install.log'\n"}
+[3.443182] (lidar_node) StdoutLine: {'line': b"writing list of installed files to '/home/ika/ros2_ws/build/lidar_node/install.log'\n"}
+[3.515214] (camera_node) CommandEnded: {'returncode': 0}
+[3.526895] (-) TimerEvent: {}
+[3.544796] (camera_node) JobEnded: {'identifier': 'camera_node', 'rc': 0}
+[3.552052] (lidar_node) CommandEnded: {'returncode': 0}
+[3.572363] (lidar_node) JobEnded: {'identifier': 'lidar_node', 'rc': 0}
+[3.575543] (-) EventReactorShutdown: {}

@@ -1,0 +1,33 @@
+[2.564s] Invoking command in '/home/ika/ros2_ws/src/camera_node': PYTHONPATH=/home/ika/ros2_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_node build --build-base /home/ika/ros2_ws/build/camera_node/build install --record /home/ika/ros2_ws/build/camera_node/install.log --single-version-externally-managed install_data
+[3.358s] running egg_info
+[3.363s] creating ../../build/camera_node/camera_node.egg-info
+[3.366s] writing ../../build/camera_node/camera_node.egg-info/PKG-INFO
+[3.366s] writing dependency_links to ../../build/camera_node/camera_node.egg-info/dependency_links.txt
+[3.366s] writing entry points to ../../build/camera_node/camera_node.egg-info/entry_points.txt
+[3.366s] writing requirements to ../../build/camera_node/camera_node.egg-info/requires.txt
+[3.366s] writing top-level names to ../../build/camera_node/camera_node.egg-info/top_level.txt
+[3.367s] writing manifest file '../../build/camera_node/camera_node.egg-info/SOURCES.txt'
+[3.370s] reading manifest file '../../build/camera_node/camera_node.egg-info/SOURCES.txt'
+[3.372s] writing manifest file '../../build/camera_node/camera_node.egg-info/SOURCES.txt'
+[3.373s] running build
+[3.373s] running build_py
+[3.373s] creating /home/ika/ros2_ws/build/camera_node/build
+[3.374s] creating /home/ika/ros2_ws/build/camera_node/build/lib
+[3.375s] creating /home/ika/ros2_ws/build/camera_node/build/lib/camera_node
+[3.375s] copying camera_node/camera_node.py -> /home/ika/ros2_ws/build/camera_node/build/lib/camera_node
+[3.376s] copying camera_node/__init__.py -> /home/ika/ros2_ws/build/camera_node/build/lib/camera_node
+[3.376s] running install
+[3.377s] running install_lib
+[3.377s] creating /home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages/camera_node
+[3.377s] copying /home/ika/ros2_ws/build/camera_node/build/lib/camera_node/camera_node.py -> /home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages/camera_node
+[3.378s] copying /home/ika/ros2_ws/build/camera_node/build/lib/camera_node/__init__.py -> /home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages/camera_node
+[3.378s] byte-compiling /home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages/camera_node/camera_node.py to camera_node.cpython-310.pyc
+[3.380s] byte-compiling /home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages/camera_node/__init__.py to __init__.cpython-310.pyc
+[3.380s] running install_data
+[3.380s] copying package.xml -> /home/ika/ros2_ws/install/camera_node/share/camera_node
+[3.381s] running install_egg_info
+[3.386s] Copying ../../build/camera_node/camera_node.egg-info to /home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages/camera_node-0.0.0-py3.10.egg-info
+[3.388s] running install_scripts
+[3.438s] Installing camera_node script to /home/ika/ros2_ws/install/camera_node/lib/camera_node
+[3.440s] writing list of installed files to '/home/ika/ros2_ws/build/camera_node/install.log'
+[3.512s] Invoked command in '/home/ika/ros2_ws/src/camera_node' returned '0': PYTHONPATH=/home/ika/ros2_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ika/ros2_ws/install/camera_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_node build --build-base /home/ika/ros2_ws/build/camera_node/build install --record /home/ika/ros2_ws/build/camera_node/install.log --single-version-externally-managed install_data

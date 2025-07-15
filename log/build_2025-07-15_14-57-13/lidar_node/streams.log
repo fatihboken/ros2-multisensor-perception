@@ -1,0 +1,21 @@
+[2.663s] Invoking command in '/home/ika/ros2_ws/src/lidar_node': PYTHONPATH=/home/ika/ros2_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_node build --build-base /home/ika/ros2_ws/build/lidar_node/build install --record /home/ika/ros2_ws/build/lidar_node/install.log --single-version-externally-managed
+[3.453s] running egg_info
+[3.456s] writing ../../build/lidar_node/lidar_node.egg-info/PKG-INFO
+[3.457s] writing dependency_links to ../../build/lidar_node/lidar_node.egg-info/dependency_links.txt
+[3.459s] writing entry points to ../../build/lidar_node/lidar_node.egg-info/entry_points.txt
+[3.459s] writing requirements to ../../build/lidar_node/lidar_node.egg-info/requires.txt
+[3.459s] writing top-level names to ../../build/lidar_node/lidar_node.egg-info/top_level.txt
+[3.465s] reading manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+[3.467s] writing manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+[3.468s] running build
+[3.468s] running build_py
+[3.470s] running install
+[3.471s] running install_lib
+[3.475s] running install_egg_info
+[3.480s] removing '/home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node-0.0.0-py3.10.egg-info' (and everything under it)
+[3.481s] Copying ../../build/lidar_node/lidar_node.egg-info to /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node-0.0.0-py3.10.egg-info
+[3.483s] running install_scripts
+[3.550s] Installing lidar_reader_node script to /home/ika/ros2_ws/install/lidar_node/lib/lidar_node
+[3.551s] Installing map_builder_node script to /home/ika/ros2_ws/install/lidar_node/lib/lidar_node
+[3.552s] writing list of installed files to '/home/ika/ros2_ws/build/lidar_node/install.log'
+[3.617s] Invoked command in '/home/ika/ros2_ws/src/lidar_node' returned '0': PYTHONPATH=/home/ika/ros2_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_node build --build-base /home/ika/ros2_ws/build/lidar_node/build install --record /home/ika/ros2_ws/build/lidar_node/install.log --single-version-externally-managed

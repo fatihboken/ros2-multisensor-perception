@@ -1,0 +1,44 @@
+[2.555s] Invoking command in '/home/ika/ros2_ws/src/lidar_node': PYTHONPATH=/home/ika/ros2_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_node build --build-base /home/ika/ros2_ws/build/lidar_node/build install --record /home/ika/ros2_ws/build/lidar_node/install.log --single-version-externally-managed
+[3.317s] running egg_info
+[3.319s] creating ../../build/lidar_node/lidar_node.egg-info
+[3.320s] writing ../../build/lidar_node/lidar_node.egg-info/PKG-INFO
+[3.321s] writing dependency_links to ../../build/lidar_node/lidar_node.egg-info/dependency_links.txt
+[3.321s] writing entry points to ../../build/lidar_node/lidar_node.egg-info/entry_points.txt
+[3.323s] writing requirements to ../../build/lidar_node/lidar_node.egg-info/requires.txt
+[3.323s] writing top-level names to ../../build/lidar_node/lidar_node.egg-info/top_level.txt
+[3.324s] writing manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+[3.328s] reading manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+[3.331s] writing manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+[3.332s] running build
+[3.332s] running build_py
+[3.333s] creating /home/ika/ros2_ws/build/lidar_node/build
+[3.334s] creating /home/ika/ros2_ws/build/lidar_node/build/lib
+[3.335s] creating /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node
+[3.336s] copying lidar_node/lidar_reader.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node
+[3.338s] copying lidar_node/map_builder_node.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node
+[3.338s] copying lidar_node/lidar_reader_node.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node
+[3.338s] copying lidar_node/map_tracker.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node
+[3.338s] copying lidar_node/__init__.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node
+[3.338s] copying lidar_node/astar_planner.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node
+[3.339s] running install
+[3.340s] running install_lib
+[3.341s] creating /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node
+[3.342s] copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/lidar_reader.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node
+[3.342s] copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/map_builder_node.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node
+[3.342s] copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/lidar_reader_node.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node
+[3.343s] copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/map_tracker.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node
+[3.344s] copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/__init__.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node
+[3.345s] copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/astar_planner.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node
+[3.348s] byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/lidar_reader.py to lidar_reader.cpython-310.pyc
+[3.349s] byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/map_builder_node.py to map_builder_node.cpython-310.pyc
+[3.350s] byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/lidar_reader_node.py to lidar_reader_node.cpython-310.pyc
+[3.351s] byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/map_tracker.py to map_tracker.cpython-310.pyc
+[3.352s] byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/__init__.py to __init__.cpython-310.pyc
+[3.352s] byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/astar_planner.py to astar_planner.cpython-310.pyc
+[3.354s] running install_egg_info
+[3.359s] Copying ../../build/lidar_node/lidar_node.egg-info to /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node-0.0.0-py3.10.egg-info
+[3.361s] running install_scripts
+[3.410s] Installing lidar_reader_node script to /home/ika/ros2_ws/install/lidar_node/lib/lidar_node
+[3.411s] Installing map_builder_node script to /home/ika/ros2_ws/install/lidar_node/lib/lidar_node
+[3.413s] writing list of installed files to '/home/ika/ros2_ws/build/lidar_node/install.log'
+[3.522s] Invoked command in '/home/ika/ros2_ws/src/lidar_node' returned '0': PYTHONPATH=/home/ika/ros2_ws/build/lidar_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_node build --build-base /home/ika/ros2_ws/build/lidar_node/build install --record /home/ika/ros2_ws/build/lidar_node/install.log --single-version-externally-managed

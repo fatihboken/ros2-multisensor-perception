@@ -1,0 +1,4 @@
+[console_scripts]
+lidar_reader_node = lidar_node.lidar_reader_node:main
+map_builder_node = lidar_node.map_builder_node:main
+

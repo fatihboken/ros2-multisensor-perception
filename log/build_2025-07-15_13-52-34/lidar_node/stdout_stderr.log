@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/lidar_node/lidar_node.egg-info
+writing ../../build/lidar_node/lidar_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_node/lidar_node.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_node/lidar_node.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_node/lidar_node.egg-info/requires.txt
+writing top-level names to ../../build/lidar_node/lidar_node.egg-info/top_level.txt
+writing manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_node/lidar_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ika/ros2_ws/build/lidar_node/build
+creating /home/ika/ros2_ws/build/lidar_node/build/lib
+creating /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node
+copying lidar_node/lidar_reader.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node
+copying lidar_node/map_builder_node.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node
+copying lidar_node/lidar_reader_node.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node
+copying lidar_node/map_tracker.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node
+copying lidar_node/__init__.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node
+copying lidar_node/astar_planner.py -> /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node
+running install
+running install_lib
+creating /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node
+copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/lidar_reader.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node
+copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/map_builder_node.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node
+copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/lidar_reader_node.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node
+copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/map_tracker.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node
+copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/__init__.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node
+copying /home/ika/ros2_ws/build/lidar_node/build/lib/lidar_node/astar_planner.py -> /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node
+byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/lidar_reader.py to lidar_reader.cpython-310.pyc
+byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/map_builder_node.py to map_builder_node.cpython-310.pyc
+byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/lidar_reader_node.py to lidar_reader_node.cpython-310.pyc
+byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/map_tracker.py to map_tracker.cpython-310.pyc
+byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node/astar_planner.py to astar_planner.cpython-310.pyc
+running install_egg_info
+Copying ../../build/lidar_node/lidar_node.egg-info to /home/ika/ros2_ws/install/lidar_node/lib/python3.10/site-packages/lidar_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_reader_node script to /home/ika/ros2_ws/install/lidar_node/lib/lidar_node
+Installing map_builder_node script to /home/ika/ros2_ws/install/lidar_node/lib/lidar_node
+writing list of installed files to '/home/ika/ros2_ws/build/lidar_node/install.log'
